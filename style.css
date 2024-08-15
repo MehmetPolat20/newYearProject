@@ -55,7 +55,7 @@ span {
 .balloon::after {
   content: "";
   width: 3px;
-  height: 150px;
+  height: 125px;
   background-color: #fff;
   display: block;
   position: absolute;
@@ -94,7 +94,7 @@ span {
   0% {
     right: -100px;
   }
-  60% {
+  80% {
     right: 400px;
   }
   90% {
@@ -104,10 +104,29 @@ span {
     right: 470px;
   }
 }
+
+
 @keyframes balloon {
   0% {
     right: -100px;
-    top: 5px;
+    top: 70px;
+  }
+
+  80% {
+    right: 430px;
+    top: 20px;
+  }
+  100% {
+    top: -1000px;
+  }
+}
+
+
+/* old version */
+/* @keyframes balloon {
+  0% {
+    right: -100px;
+    top: 10px;
   }
   60% {
     right: 250px;
@@ -120,10 +139,11 @@ span {
   100% {
     top: -1000px;
   }
-}
+} */
 @keyframes oldYear {
+
   80% {
-    top: 300px;
+    top: 270px;
   }
   100% {
     top: -1000px;
