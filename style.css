@@ -25,7 +25,7 @@ span {
 .new {
   position: absolute;
   /* right: -100px; */
-  animation: newYear 5s forwards;
+  animation: newYear 7s forwards;
 }
 .new-year-text {
   text-align: center;
@@ -50,7 +50,7 @@ span {
   margin: 20px 30px;
   z-index: 10;
   transform-origin: bottom center;
-  animation: balloon 5s forwards;
+  animation: balloon 6s forwards;
 }
 .balloon::after {
   content: "";
@@ -66,7 +66,7 @@ span {
 }
 .old {
   position: absolute;
-  animation: oldYear 5s forwards;
+  animation: oldYear 6s forwards;
 }
 
 .confetti {
@@ -76,7 +76,7 @@ span {
   height: 50px;
   border-radius: 50%;
   z-index: -99;
-  animation: confetti 15s forwards;
+  animation: confetti 18s forwards;
 }
 @keyframes newYearText {
   0% {
@@ -141,6 +141,7 @@ span {
   }
 } */
 @keyframes oldYear {
+
 
   80% {
     top: 270px;
